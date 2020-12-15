@@ -199,8 +199,6 @@
 			    <ul class="treeview-menu">
 				<li><a href="#">Toevoegen</a></li>
 				<li><a href="#">Overzicht</a></li>
-				<li><a href="#">Defineer index-pagina</a></li>
-				<li><a href="#">Menu volgorde</a></li>
 			    </ul>
 			</li>
 			<li class="treeview">
@@ -311,7 +309,6 @@
 				<li><a href='index.php?module=vehicles&amp;action=materieelnummers_category_list'>Categorie&euml;n overzicht</a></li>
 				<li><a href='index.php?module=vehicles&amp;action=materieelnummers_csvimport'>Import mat.nummers</a></li>
 				<li><a href='index.php?module=vehicles&amp;action=materieelnummers_drglomloop'>CSV import materieelinzet</a></li>
-				<li><a href='index.php?module=vehicles&amp;action=materieelnummers_inzet_koppelingen'>Materieelinzet koppelingen</a></li>
 			    </ul>
 			</li>
 			<li class="treeview">
@@ -349,7 +346,7 @@
 				<li><a href='index.php?module=system&amp;action=cronlog'>Cron-log</a></li>
 				<li><a href='index.php?module=system&amp;action=stats'>Statistieken</a></li>
 				<li><a href='index.php?module=system&amp;action=server'>Serverconfiguratie</a></li>
-				<li><a href='index.php?module=system&amp;action=upload_converter'>Upload converter</a></li>
+				<li><a href='index.php?module=system&amp;action=upload_converter'>Uploadconverter</a></li>
 			    </ul>
 			</li>
 
@@ -364,12 +361,11 @@
 		<!-- Content Header (Page header) -->
 		<section class="content-header">
 		    <h1>
-			Page Header
-			<small>Optional description</small>
+			Paginatitel
 		    </h1>
 		    <ol class="breadcrumb">
-			<li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-			<li class="active">Here</li>
+			<li><a href="#"><i class="fa fa-dashboard"></i> Pagina </a></li>
+			<li class="active">Actie</li>
 		    </ol>
 		</section>
 
@@ -414,36 +410,23 @@
 		<div class="tab-content">
 		    <!-- Home tab content -->
 		    <div class="tab-pane active" id="control-sidebar-home-tab">
-			<h3 class="control-sidebar-heading">Recent Activity</h3>
-			<ul class="control-sidebar-menu">
-			    <li>
-				<a href="javascript:;">
-				    <i class="menu-icon fa fa-birthday-cake bg-red"></i>
-
-				    <div class="menu-info">
-					<h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
-
-					<p>Will be 23 on April 24th</p>
-				    </div>
-				</a>
-			    </li>
-			</ul>
-			<!-- /.control-sidebar-menu -->
-
-			<h3 class="control-sidebar-heading">Tasks Progress</h3>
+			<h3 class="control-sidebar-heading">ToDo lijst</h3>
 			<ul class="control-sidebar-menu">
 			    <li>
 				<a href="javascript:;">
 				    <h4 class="control-sidebar-subheading">
-					Custom Template Design
-					<span class="pull-right-container">
-					    <span class="label label-danger pull-right">70%</span>
-					</span>
+					Review: Spoorwegmuseum
 				    </h4>
-
-				    <div class="progress progress-xxs">
-					<div class="progress-bar progress-bar-danger" style="width: 70%"></div>
-				    </div>
+				</a>
+                                <a href="javascript:;">
+				    <h4 class="control-sidebar-subheading">
+					Review: ICNG in dienst
+				    </h4>
+				</a>
+                                <a href="javascript:;">
+				    <h4 class="control-sidebar-subheading">
+					Review: Testspoorlijnen in Europa
+				    </h4>
 				</a>
 			    </li>
 			</ul>
